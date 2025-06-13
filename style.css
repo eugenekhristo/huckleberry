@@ -3,10 +3,83 @@
   font-family: 'Lato', sans-serif;
 }
 
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  color: #000;
+}
+
 html,
 body {
   margin: 0;
   padding: 0;
 }
 
-/* Add styles here! */
+header {
+  background-color: #ffffff;
+  border-bottom: 8px solid #999999;
+}
+
+header .max-width-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 96px 24px 64px;
+}
+
+header .intro-chunk {
+  max-width: 415px;
+}
+
+header h1 {
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 48px;
+}
+
+header p {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  margin-top: 16px;
+}
+
+header strong {
+  color: #009966;
+  font-weight: 800;
+}
+
+main {
+  background-color: #666666;
+}
+
+main .max-width-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 66px 0 72px;
+}
+
+main .card {
+  background-color: #ffffff;
+  border-bottom: 8px solid #999999;
+  padding: 8px 24px 24px;
+}
+
+main h2 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  line-height: 1.2;
+  padding: 16px 32px;
+  background-color: #ffbf00;
+  border-bottom: 8px solid #cc9900;
+  width: fit-content;
+  margin-left: -32px;
+}
+
+main p {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  font-weight: 500;
+  margin-top: 16px;
+}
